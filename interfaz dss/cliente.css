@@ -52,3 +52,171 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+/* Estilos específicos para el formulario de prestamistas */
+
+.form-prestamista {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.form-prestamista h2 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-prestamista label {
+    font-weight: bold;
+}
+
+.form-prestamista input[type="text"],
+.form-prestamista input[type="email"],
+.form-prestamista input[type="submit"],
+.form-prestamista select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-prestamista input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-prestamista input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos específicos para el formulario de dependientes del banco */
+
+.form-dependiente {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.form-dependiente h2 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-dependiente label {
+    font-weight: bold;
+}
+
+.form-dependiente input[type="text"],
+.form-dependiente input[type="email"],
+.form-dependiente input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-dependiente input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-dependiente input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos específicos para el formulario de transacción con prestamista */
+
+.form-transaccion {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.form-transaccion h2 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-transaccion label {
+    font-weight: bold;
+}
+
+.form-transaccion input[type="text"],
+.form-transaccion input[type="number"],
+.form-transaccion input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-transaccion input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-transaccion input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilos específicos para el formulario de apertura de préstamos */
+
+.form-prestamo {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.form-prestamo h2 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-prestamo label {
+    font-weight: bold;
+}
+
+.form-prestamo input[type="text"],
+.form-prestamo input[type="number"],
+.form-prestamo input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-prestamo input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-prestamo input[type="submit"]:hover {
+    background-color: #0056b3;
+}
